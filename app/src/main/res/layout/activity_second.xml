@@ -37,9 +37,17 @@
     <ImageView
         android:id="@+id/mushroom4"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="180dp"
         android:layout_weight="0"
         app:srcCompat="@drawable/mushroom4" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:onClick="back"
+        android:text="Back" />
 
 
 </LinearLayout>
