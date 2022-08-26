@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFCC63"
     android:orientation="vertical"
     tools:context=".SplashScreen">
 
@@ -14,11 +15,19 @@
         android:gravity="center"
         android:text="Splash Screen Things"
         android:textColor="#000000"
-        android:textSize="24sp" />
+        android:textSize="34sp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gotta read these things quick it's bout to dissappear but have a good day."
+        android:textColor="#000000"
+        android:textSize="24sp" />
 </LinearLayout>
